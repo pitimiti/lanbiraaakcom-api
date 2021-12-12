@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: lanbiraaakcom API
+            description: lanbiraaakcom platformunun verilerine dışarıdan ulaşılmak için hazırlanmıştır.
+            version: 1.0.0
+    areas:
+        path_patterns: # an array of regexps
+            - ^/api(?!/doc$)
